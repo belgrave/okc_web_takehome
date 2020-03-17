@@ -1,0 +1,7 @@
+<p>Counter (to make sure redux works): {this.props.counter}</p>
+
+    <p>
+        <button onClick={() => this.props.dispatch(increment())}>
+            Increment
+  </button>
+    </p>
